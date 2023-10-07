@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  <a href="">          </a>
+  <a href="a.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a class="active" href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+  
+</div>
+<form>
+  <div class="imgcontainer">
+    <img src="avatar.webp" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+      <!-- Password field -->
+<input type="password" placeholder="Enter Password" id="myInput">
+
+  <!-- An element to toggle between password visibility -->
+  <input type="checkbox" onclick="myFunction()">Show Password
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <a href="index.html"><button type="button" class="cancelbtn">Cancel</button></a>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+<script src="log.js"></script>
+</body>
+</html>
